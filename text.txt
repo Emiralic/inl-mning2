@@ -1,0 +1,48 @@
+@media only screen and (max-width: 500px) {
+
+    .container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+    margin-top: 0px;
+    height: 50%;
+    background-color: white;
+    }
+
+    .left {
+    width: 500px;
+    display: block;
+    height: 900px;
+    }
+
+    img {
+        margin-top: 550px;
+        height: 50%;
+    }
+
+    .left p {
+        display: none;
+    }
+
+    .signup-form {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .signup-btn {
+        margin-bottom: 50px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+
+  }
